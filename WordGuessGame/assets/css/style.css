@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'starjedi';
+    src: url("../fonts/Starjedi.ttf");
+  }
+  html,body{
+      background-color: black;
+      font-family: "starjedi";
+      color: gold;
+      text-align: center;
+      background-image: url("../images/StarWarsWallPaper.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      z-index: -1;
+      margin: 0;
+      height: 100%
+  }
+  header{
+      width: 100%;
+      height: 122px;
+      background-color: rgba(0,0,0,0.6);
+  }
+  header h1{
+    font-size: 2em;
+    line-height: 60px;
+    width: 415px;
+    margin: 0 auto;
+  }
+  table, th, td {
+      border: 1px dashed gold;
+      border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+  }
+  #game-over{
+      position: relative;
+    top: 30%;
+    width: 100%;
+    height: 30%;
+    color: gold;
+  }
+  #game-over div{
+      width: 85%;
+    margin: 0 auto;
+    padding: 2%;
+  }
+  #game-over span{
+      padding: 10px;
+      font-size: 2em;
+      line-height: 45px;
+      text-shadow: 3px 3px rgba(0,0,0,0.8);
+  }
+  .hidden{
+      display: none;
+  }
+  #character-name{
+      letter-spacing: 7px;
+  }
+  #press-to-start{
+    position: relative;
+    top: 30%;
+    width: 100%;
+    height: 30%;
+    color: gold;
+  }
+  #press-to-start span{
+      padding: 10px;
+      font-size: 2em;
+      line-height: 45px;
+      text-shadow: 3px 3px rgba(0,0,0,0.8);
+  }
+  #press-to-start div{
+      width: 85%;
+    margin: 0 auto;
+    padding: 2%;
+  }
+  #table{
+      width: 100%;
+      position: relative;
+      top: 30%;
+  }
+  table{
+      margin: 0 auto;
+      width: 70%;
+      background-color: rgba(0,0,0,0.7);
+  }
+  tr{
+      height: 30px;
+  }
+  td, th{
+      padding: 10px;
+  }
+  .wrapper{
+      position: relative;
+      letter-spacing: 3px;
+      line-height: 22px;
+      width: 100%;
+      height: 100%;
+  }
+  
