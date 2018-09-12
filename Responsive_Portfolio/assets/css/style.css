@@ -1,0 +1,906 @@
+.aboutMeWrapper {
+    width: auto;
+    padding: 10px;
+    background-color: #fff;
+    float: left;
+}
+
+hr {
+  width: 90%;
+}
+
+.aboutMeHeader {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #4aaaa5;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.content {
+  width: 960px;
+  height: 1000px;
+  padding: 0;
+  margin: 55px auto 80px auto;
+}
+
+
+.connectLinksWrapper {
+    background-color: #fff;
+    width: 270px;
+    height: 230px;
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.stackOver-icon {
+  background-image: url('../images/if_stackoverflow_1220346.png');
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+
+}
+
+.linkedin-icon {
+  background-image: url('../images/if_9_940989.png');
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+}
+
+.github-icon {
+  background-image: url('../images/if_github_1218140.png');
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+}
+
+.linkElement {
+  display: inline-block;
+  float: left;
+  margin: 3px 2px;
+}
+
+
+.connectLinks {
+    background-color: transparent;
+    width: 200px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+body {
+    background-image: url("../images/bananas.png");
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.headerFont {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+.nonHeadFont {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    font-size: 17px;
+}
+
+.navbar ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    text-align: center;
+    line-height: 64px;
+    color: #777 !important;
+}
+
+.navbar li:not(:first-child):before {
+    content: "|";
+    padding: 10px;
+}
+
+.navbar {
+    display: block;
+    text-decoration: none;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    padding: 0;
+    clear: both;
+    height: 60px;
+    margin-bottom: 20px;
+    border-bottom: #ccc solid 5px;
+}
+
+.navMenu {
+  margin-right: 70px;
+}
+
+.navMenu a:link {
+    color: #777 !important;
+}
+
+.navMenu a:visited,
+.navMenu a:link,
+.navMenu a:active {
+  text-decoration: none;
+  color: #777;
+}
+
+.navMenu a:hover {
+    color: #4aaaa5;
+}
+
+.connectLinks li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.connectLinksHeader {
+    font-weight: bolder;
+    color: #4aaaa5;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.aboutMePhoto {
+    float: left;
+    margin: 20px;
+}
+
+.nameHeader span {
+    line-height: 60px;
+    background-color: #4aaaa5;
+    padding: 15px;
+    /* NEED TO MAKE RESPONSIVE */
+    color: #fff;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.nameHeader {
+    float: left;
+    height: auto;
+    margin-left: 70px;
+}
+
+.navMenu {
+    font-size: 17px;
+}
+
+.aboutText {
+    padding: 10px;
+    line-height: 120%;
+}
+
+
+/* FOOTER */
+
+.footer {
+    clear: both;
+    height: 65px;
+    background-color: #666;
+    position: fixed;
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-top: solid 14px #4aaaa5;
+}
+
+.footerText {
+    line-height: 65px;
+    color: #fff;
+}
+
+
+
+
+.contactWrapper {
+    width: 650px; /* pushes contact link wrapper to next row on 13 inch screen */
+    background-color: #fff;
+    height: 600px;
+    padding: 10px;
+    float: left;
+}
+
+.contactHeader {
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: bolder;
+    color: #4aaaa5;
+    margin-left: 20px;
+}
+
+.formElement {
+    margin-top: 20px;
+    padding: 4px;
+}
+
+.formModule {
+    margin: 0 auto;
+    width: 400px;
+    padding: 2px;
+}
+
+input, textarea {
+    font: 16px sans-serif #ccc;
+    width: 400px;
+    height: 200px;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 90px;
+    margin-bottom: 13px;
+}
+
+#mail, #nameForm {
+    height: 20px;
+}
+
+#submitButton {
+    padding: 14px;
+    background-color: #4aaaa5;
+    color: #fff;
+    border-style: none;
+    font-weight: bold;
+}
+
+
+/** PORTFOLIO STYLE **/
+
+.portfolioWrapper {
+  width: auto;
+  background-color: #fff;
+  height: auto;
+  float: left;
+  padding: 10px;
+  overflow: auto;
+
+}
+
+.portRow {
+  left: 0;
+  display: inline;
+  padding: 60px;
+}
+
+.portElement {
+  width: 240px;
+  height: 180px;
+  border: solid #000 1px;
+  display: inline-block;
+  padding: 0;
+  background-image: url('https://a.alumni.ucla.edu/events/i-heart-ucla/2015/I-heart-ucla-logo.jpg');
+  position: relative;
+  font-size: 19px;
+  font-style: bold;
+}
+
+.portElement2 {
+    width: 240px;
+    height: 180px;
+    border: solid #000 1px;
+    display: inline-block;
+    padding: 0;
+    background-image: url('https://i.ndtvimg.com/i/2017-09/mona-lisa_240x180_71506758527.jpg');
+    position: relative;
+    font-size: 19px;
+    font-style: bold;
+  }
+
+.portElement3 {
+  width: 240px;
+  height: 180px;
+  border: solid #000 1px;
+  display: inline-block;
+  padding: 0;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkQPwSXVrmgCZKwv8ztHJz9XxjNm8-zL-uzRGKKyqVGI2QOxM5');
+  position: relative;
+  font-size: 19px;
+  font-style: bold;
+}  
+
+.portElement4 {
+  width: 240px;
+  height: 180px;
+  border: solid #000 1px;
+  display: inline-block;
+  padding: 0;
+  background-image: url('http://www.artic.edu/sites/default/files/8227_591535_240x180.jpg');
+  position: relative;
+  font-size: 19px;
+  font-style: bold;
+}
+
+.portElement5 {
+  width: 240px;
+  height: 180px;
+  border: solid #000 1px;
+  display: inline-block;
+  padding: 0;
+  background-image: url('https://c1.staticflickr.com/3/2332/1896159635_56d1ce74b9_m.jpg');
+  position: relative;
+  font-size: 19px;
+  font-style: bold;
+}
+
+.portElement6 {
+  width: 240px;
+  height: 180px;
+  border: solid #000 1px;
+  display: inline-block;
+  padding: 0;
+  background-image: url('https://c1.staticflickr.com/5/4064/4615146645_f56b8d0273_m.jpg');
+  position: relative;
+  font-size: 19px;
+  font-style: bold;
+}
+
+
+
+.portfolioHeader {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #4aaaa5;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  padding: 14px;
+}
+
+.portItemWrapper {
+  float: left;
+  margin: 0 30px;
+}
+
+.portItemText {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background: rgba(74, 170, 165, 0.7);
+  color: #fff;
+  height: auto;
+  line-height: 40px;
+  top: 100px;
+  text-align: center;
+}
+
+/* Media Queries here!*/
+@media screen and (max-width: 980px) {
+    .content {
+      width: 800px;
+      margin: 50px auto;
+    }
+  
+    .aboutMeWrapper {
+      padding: 30px;
+    }
+  
+    .portfolioWrapper,
+    .aboutMeWrapper,
+    .contactWrapper {
+      width: 400px;
+    }
+  
+    .portPhoto {
+      width: 380px;
+      clear: both;
+    }
+  
+    .aboutText {
+      clear: both;
+      margin: 0 auto;
+    }
+  
+  
+  /* CONTACT WRAPPER */
+    .contactWrapper {
+      height: auto;
+      padding: 30px;
+    }
+  
+    .contactHeader {
+      font-size: 28px;
+    }
+  
+    input, textarea {
+        font: 16px sans-serif #ccc;
+        width: 380px;
+        height: 200px;
+    }
+  
+    /*PORTFOLIO WRAPPER */
+    .portfolioWrapper {
+      width: 400px;
+      padding: 30px;
+      margin-bottom: 80px;
+    }
+  
+    .portRow {
+      left: 0;
+      display: inline-block;
+      margin: 0.1px 0;
+    }
+  
+    .portElement {
+      width: 370px;
+      height: 200px;
+      background-image: url('https://a.alumni.ucla.edu/events/i-heart-ucla/2015/I-heart-ucla-logo.jpg');
+    }
+
+    .portElement2 {
+      width: 370px;
+      height: 200px;
+      background-image: url('https://i.ndtvimg.com/i/2017-09/mona-lisa_240x180_71506758527.jpg');
+    }
+
+    .portElement3 {
+      width: 370px;
+      height: 200px;
+      display: inline-block;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkQPwSXVrmgCZKwv8ztHJz9XxjNm8-zL-uzRGKKyqVGI2QOxM5');
+      font-size: 23px;
+      clear: both;
+    }
+
+    .portElement4 {
+      width: 370px;
+      height: 200px;
+      display: inline-block;
+      background-image: url('http://www.artic.edu/sites/default/files/8227_591535_240x180.jpg');
+      font-size: 23px;
+      clear: both;
+    }
+
+    .portElement5 {
+      width: 370px;
+      height: 200px;
+      display: inline-block;
+      background-image: url('https://c1.staticflickr.com/3/2332/1896159635_56d1ce74b9_m.jpg');
+      font-size: 23px;
+      clear: both;
+    }
+
+    .portElement6 {
+      width: 370px;
+      height: 200px;
+      display: inline-block;
+      background-image: url('https://c1.staticflickr.com/5/4064/4615146645_f56b8d0273_m.jpg');
+      font-size: 23px;
+      clear: both;
+    }
+  
+    .portItemText {
+      top: 80px;
+      font-size: 25px;
+      line-height: 50px;
+    }
+  
+    /* CONNECT LINK WRAPPER */
+  
+      .connectLinksWrapper {
+        width: 250px;
+        height: 210px;
+        padding: 13px;
+        margin-left: 30px;
+      }
+  
+      .stackOver-icon,
+      .linkedin-icon,
+      .github-icon {
+        background-size: 65px;
+        width: 65px;
+        height: 65px;
+      }
+  
+      .connectLinks {
+        margin: 0 auto;
+        width: 210px;
+      }
+  
+      .connectLinksHeader {
+        font-size: 20px;
+      }
+  
+  
+      /* FOOTER */
+      .footer {
+        height: 45px;
+        font-size: 15px;
+      }
+  
+      .footerText {
+        line-height: 50px;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content {
+      width: 700px;
+      margin: 30px auto 70px auto;
+    }
+  
+    .nameHeader {
+      margin-left: 28px;
+    }
+  
+    .aboutMeHeader {
+      line-height: 60px;
+    }
+  
+    .aboutMeWrapper,
+    .portfolioWrapper,
+    .contactWrapper {
+      width: 680px;
+    }
+  
+    .aboutText {
+      float: left;
+      display: inline-block;
+      width: 380px;
+      margin: 0;
+      clear: none;
+    }
+  
+    .aboutMeWrapper {
+      padding: 2px;
+      margin-bottom: 20px;
+    }
+  
+    .aboutMePhoto {
+      width: 210px;
+      display: inline-block;
+    }
+    .portPhoto {
+      width: 200px;
+    }
+  
+    .connectLinksWrapper {
+      width: 680px;
+      height: 170px;
+      padding: 2px;
+      clear: both;
+      left: 0;
+      margin-left: 0;
+      text-align: left
+    }
+  
+    .connectLinks {
+      width: 580px;
+    }
+  
+    .connectLinks,
+    .connectLinksHeader{
+      margin-left: 50px;
+      padding: 6px;
+    }
+  
+    .nonHeadFont {
+      font-size: 14px;
+    }
+  
+  /* CONTACT WRAPPER */
+    .contactWrapper {
+      height: auto;
+      padding: 2px;
+      clear: both;
+      margin: 0 auto 40px auto;
+    }
+  
+    .contactHeader {
+      font-size: 24px;
+      margin-left: 20px;
+    }
+  
+    input, textarea {
+        font: 16px sans-serif #ccc;
+        width: 560px;
+        height: 200px;
+    }
+    .formModule {
+      margin: 20px 50px;
+    }
+  
+  /* PORTFOLIO WRAPPER */
+  
+    .portfolioWrapper {
+      padding: 2px;
+    }
+  
+    /*PORTFOLIO WRAPPER */
+    .portfolioWrapper {
+      padding: 20px;
+      margin-bottom: 80px;
+    }
+  
+    .portRow {
+      width: 650px
+    }
+  
+    .portElement {
+      width: 300px;
+      height: 200px;
+      background-image: url('https://a.alumni.ucla.edu/events/i-heart-ucla/2015/I-heart-ucla-logo.jpg');
+    }
+
+    .portElement2 {
+      width: 300px;
+      height: 200px;
+      background-image: url('https://i.ndtvimg.com/i/2017-09/mona-lisa_240x180_71506758527.jpg');
+    }
+
+    .portElement3 {
+      width: 300px;
+      height: 200px;
+      display: inline-block;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkQPwSXVrmgCZKwv8ztHJz9XxjNm8-zL-uzRGKKyqVGI2QOxM5');
+      font-size: 23px;
+      clear: both;
+    }
+
+    .portElement4 {
+      width: 300px;
+      height: 200px;
+      display: inline-block;
+      background-image: url('http://www.artic.edu/sites/default/files/8227_591535_240x180.jpg');
+      font-size: 23px;
+      clear: both;
+    }
+
+    .portElement5 {
+      width: 300px;
+      height: 200px;
+      display: inline-block;
+      background-image: url('https://c1.staticflickr.com/3/2332/1896159635_56d1ce74b9_m.jpg');
+      font-size: 23px;
+      clear: both;
+    }
+
+    .portElement6 {
+      width: 300px;
+      height: 200px;
+      display: inline-block;
+      background-image: url('https://c1.staticflickr.com/5/4064/4615146645_f56b8d0273_m.jpg');
+      font-size: 23px;
+
+      clear: both;
+    }
+  
+    .portItemText {
+      top: 80px;
+      font-size: 25px;
+      line-height: 50px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 640px) {
+    .content {
+      width: 600px;
+      margin: 40px 20px;
+      height: 600px;
+    }
+  
+    .aboutMeWrapper,
+    .contactWrapper,
+    .portfolioWrapper {
+      width: 580px;
+    }
+  
+    .nameHeader {
+      margin-left: 15px;
+    }
+  
+    .aboutMeHeader {
+      line-height: 60px;
+    }
+  
+    .aboutMeWrapper {
+      padding: 2px;
+    }
+  
+    .navbar li {
+      font-size: 16px;
+    }
+  
+    .navMenu {
+      margin-right: 40px;
+    }
+  
+  /* CONNECT LINK WRAPPER */
+  
+    .connectLinksWrapper {
+      width: 580px;
+      height: 160px;
+      padding: 6px;
+      margin-bottom: 90px;
+    }
+  
+    .stackOver-icon,
+    .linkedin-icon,
+    .github-icon {
+      background-size: 40px;
+      width: 40px;
+      height: 40px;
+    }
+  
+    .connectLinks {
+      margin: 0 auto;
+      width: 135px;
+    }
+  
+    .connectLinksHeader {
+      font-size: 20px;
+    }
+  
+    /* Portfolio WRAPPER */
+  
+    .portfolioWrapper {
+      padding: 2px;
+    }
+  
+    .portfolioItems {
+      margin: 0 auto;
+    }
+  
+    .navbar .nameHeader {
+      clear: both;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      line-height: 70px;
+      float: left;
+    }
+  
+    .navMenu {
+      clear: both;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      margin-bottom: 20px;
+      text-align: center;
+      margin-right: 0;
+    }
+  
+    .portElement {
+      width: 520px;
+      height: 400px;
+      display: inline-block;
+      background-image: url('https://a.alumni.ucla.edu/events/i-heart-ucla/2015/I-heart-ucla-logo.jpg');
+      font-size: 23px;
+      margin: 10px;
+      clear: both;
+    }
+
+    .portElement2 {
+      width: 520px;
+      height: 400px;
+      display: inline-block;
+      background-image: url('https://i.ndtvimg.com/i/2017-09/mona-lisa_240x180_71506758527.jpg');
+      font-size: 23px;
+      margin: 10px;
+      clear: both;
+    }
+
+    .portElement3 {
+      width: 520px;
+      height: 400px;
+      display: inline-block;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkQPwSXVrmgCZKwv8ztHJz9XxjNm8-zL-uzRGKKyqVGI2QOxM5');
+      font-size: 23px;
+      margin: 10px;
+      clear: both;
+    }
+
+    .portElement4 {
+      width: 520px;
+      height: 400px;
+      display: inline-block;
+      background-image: url('http://www.artic.edu/sites/default/files/8227_591535_240x180.jpg');
+      font-size: 23px;
+      margin: 10px;
+      clear: both;
+    }
+
+    .portElement5 {
+      width: 520px;
+      height: 400px;
+      display: inline-block;
+      background-image: url('https://c1.staticflickr.com/3/2332/1896159635_56d1ce74b9_m.jpg');
+      font-size: 23px;
+      margin: 10px;
+      clear: both;
+    }
+
+    .portElement6 {
+      width: 520px;
+      height: 400px;
+      display: inline-block;
+      background-image: url('https://c1.staticflickr.com/5/4064/4615146645_f56b8d0273_m.jpg');
+      font-size: 23px;
+      margin: 10px;
+      clear: both;
+    }
+
+  
+    .portfolioItems {
+      width: 550px;
+      margin: 0 auto;
+    }
+  
+    .portItemText {
+      top:270px;
+      line-height: 70px;
+    }
+  
+    .portRow {
+      width: 340px;
+      margin: 20px 10px;
+    }
+  
+    .portfolioHeader {
+      font-size: 27px;
+    }
+  
+    .footer {
+      height: 40px;
+      font-size: 15px;
+      line-height: 90px;
+    }
+  
+    /* CONTACT WRAPPER */
+  
+    .contactWrapper {
+      height: auto;
+      padding: 6px;
+    }
+  
+    .contactHeader {
+      font-size: 20px;
+      margin-left: 20px;
+    }
+  
+    .connectLinks {
+      left: 0;
+      margin: 0 0 0 30px;
+    }
+  
+    .formElement {
+      margin-top: 10px;
+    }
+  
+    .formModule {
+      width: 300px;
+    }
+  
+    input, textarea {
+      font: 13px;
+      width: 500px;
+      padding: 5px;
+    }
+  
+    label {
+      width: 60px;
+    }
+  
+  }
