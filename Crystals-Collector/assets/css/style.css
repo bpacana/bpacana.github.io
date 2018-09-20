@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'sf_comic_script';
+    src: url("../../../Crystals-Collector/assets/fonts/SF Comic Script Condensed.ttf");
+  }
+
+html {
+	box-sizing: border-box;
+}
+
+body { 
+	font-family: "sf_comic_script";
+	min-height: 100vh;
+    background: url("../../../Crystals-Collector/assets/images/space.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+h3 {
+	margin: 20px 0px 10px 0px;
+	letter-spacing: 3px;
+}
+
+.header {
+	padding: 70px 0px 0px 0px;
+	color: rgb(255, 255, 255);
+}
+
+h1, h3, #magicNumber, #totalScore, #wins, #losses, .score {
+	color: #ffffff;
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	margin: 55px 0px 75px 0px;
+	letter-spacing: 12px;
+}
+
+div.a {
+    font-size: 150%;
+}
+
+.crystalimg {
+	width: 150px;
+	margin: 30px auto;
+}
+
+.directions {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 20px 85px;
+}
+
+.score {
+	padding-top: 30px;
+	margin-bottom: 0;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+
+/*.directions {
+	
+}*/
+
+#winOrLose {
+	color: #ffffff;
+}
+
+.total, .scores, .directions {
+	margin: auto;
+}
+
+.btn {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ff0000;
+	letter-spacing: 3px;
+}
+
+
+
