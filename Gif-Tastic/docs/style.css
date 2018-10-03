@@ -1,0 +1,30 @@
+body {
+	background: url("../docs/TWD.jpg");
+	background-repeat: no-repeat;  
+	background-attachment: fixed;
+  	background-size: 100% 100%;
+}
+
+@font-face {
+    font-family: 'Waltograph', "Helvetica", Calibri, sans-serif;
+    src: url("../docs/twd.ttf");
+}
+
+h1 {
+	font-family: 'Waltograph'; 
+}
+
+.gifButton:hover {
+	color: red;
+}
+
+button, #add-topics {
+	background-color: lightblue;
+	border-radius: 5px;
+}
+
+.item {
+	display: inline-block;
+	margin: 2px;
+}
+
